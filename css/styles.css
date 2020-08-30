@@ -8,6 +8,45 @@ font-family: 'Roboto', sans-serif; */
 /* цвет лого в футере #FFFFFF */
 /* цвет контактов  в футере rgba(255, 255, 255, 0.6) */
 
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 400;
+	src: local("Roboto"), local("Roboto-Regular"), url("../fonts/roboto-v20-latin_cyrillic-regular.woff2") format("woff2"),
+		url("../fonts/roboto-v20-latin_cyrillic-regular.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 500;
+	src: local("Roboto Medium"), local("Roboto-Medium"),
+		url("../fonts/roboto-v20-latin_cyrillic-500.woff2") format("woff2"),
+		url("../fonts/roboto-v20-latin_cyrillic-500.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 700;
+	src: local("Roboto Bold"), local("Roboto-Bold"), url("../fonts/roboto-v20-latin_cyrillic-700.woff2") format("woff2"),
+		url("../fonts/roboto-v20-latin_cyrillic-700.woff") format("woff");
+}
+@font-face {
+	font-family: "Roboto";
+	font-style: normal;
+	font-weight: 900;
+	src: local("Roboto Black"), local("Roboto-Black"), url("../fonts/roboto-v20-latin_cyrillic-900.woff2") format("woff2"),
+		url("../fonts/roboto-v20-latin_cyrillic-900.woff") format("woff");
+}
+
+@font-face {
+	font-family: "Raleway";
+	font-style: normal;
+	font-weight: 700;
+	src: local(""), url("../fonts/raleway-v17-latin_cyrillic-700.woff2") format("woff2"),
+		url("../fonts/raleway-v17-latin_cyrillic-700.woff") format("woff");
+}
 :root {
 	--accent-color: #2196f3;
 	--primary-color: #212121;
@@ -172,7 +211,6 @@ header {
 	margin-top: 0;
 	margin-bottom: 30px;
 
-	font-family: "Roboto", sans-serif;
 	font-weight: 900;
 	font-size: 44px;
 	line-height: 1.36;
@@ -189,7 +227,7 @@ header {
 	min-width: 200px;
 
 	text-align: center;
-	font-family: Roboto;
+	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88; /*30/16*/
@@ -896,7 +934,7 @@ img {
 	padding: 10px 55px;
 	min-width: 200px;
 
-	font-family: Roboto;
+	font-family: "Roboto", sans-serif;
 	font-weight: 700;
 	font-size: 16px;
 	line-height: 1.88;
